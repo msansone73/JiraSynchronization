@@ -1,0 +1,56 @@
+<report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="report-schema.xsd">
+	<test_sets>
+        <test_set path="Root\Sandbox\Test_Lab_Folder_1">
+			<test_set_name tl_label="Name" tl_name="name" tl_physicalname="CY_CYCLE">Test_Lab_TestSet_1</test_set_name>
+			<test_set_release tl_label="Release" tl_name="user-01" tl_physicalname="CY_USER_01">5.40 00</test_set_release>
+			<test_set_sw_build tl_label="SW Build" tl_name="user-03" tl_physicalname="CY_USER_03">APS_HIT7300_5.40_00.00.01_141111_1</test_set_sw_build>	
+			<test_cases>
+				<test_case path="Subject\Sandbox\Test_Lab_Folder_1">
+					<test_case_name tp_label="Test Name" tp_name="name" tp_physicalname ="TS_NAME">Test_Plan_Test_1</test_case_name>
+					<test_case_automation_level tp_label="Automation level" tp_name="user-12" tp_physicalname="TS_USER_12">Fully automated</test_case_automation_level>
+					<test_case_level_and_area tp_label="Test Level and Area" tp_name="user-10" tp_physicalname="TS_USER_10">EnTe - Functional Test</test_case_level_and_area>
+					<test_case_creation_date tp_label="Creation Date" tp_name="creation-time" tp_physicalname="TS_CREATION_DATE">2014-11-28</test_case_creation_date>
+                    <test_case_design_status tp_label="Status" tp_name="status" tp_physicalname="TS_STATUS">Design
+                    </test_case_design_status>
+					<test_case_worth_regression_test tp_name="user-15" tp_label="Worth regression test" tp_physicalname="TS_USER_15">No</test_case_worth_regression_test>
+					<test_case_products_concerned tp_name="user-19" tp_label="Products Concerned" tp_physicalname="TS_USER_19">
+						<value>SON</value>
+                        <value>OLR</value>
+					</test_case_products_concerned>
+					<test_case_release tl_name="user-02" tl_label="Release" tl_physicalname="TC_USER_02">5.40 00</test_case_release>
+					<test_case_responsible_tester tl_label="Responsible Tester" tl_name="owner" tl_physicalname="TC_TESTER_NAME">anandrad</test_case_responsible_tester>
+					<test_case_steps>
+						<test_case_step>
+							<step_name tp_label="Step Name" tp_name="name" tp_physicalname="DS_STEP_NAME" tl_label="Step Name" tl_name="name" tl_physicalname="ST_STEP_NAME">Step 1</step_name>
+							<step_description tp_label="Description" tp_name="description" tp_physicalname="DS_DESCRIPTION" tl_label="Description" tl_name="description" tl_physicalname="ST_DESCRIPTION">Enable Superv. Mode on slot2</step_description>
+							<step_expected tp_label="Expected Result" tp_name="expected" tp_physicalname="DS_EXPECTED" tl_label="Expected" tl_name="expected" tl_physicalname="ST_EXPECTED">Superv. Mode is enabled</step_expected>
+							<step_status tl_label="Status" tl_name="status" tl_physicalname="ST_STATUS">Passed</step_status>
+						</test_case_step>
+						<test_case_step>
+							<step_name tp_label="Step Name" tp_name="name" tp_physicalname="DS_STEP_NAME" tl_label="Step Name" tl_name="name" tl_physicalname="ST_STEP_NAME">Step 2</step_name>
+							<step_description tp_label="Description" tp_name="description" tp_physicalname="DS_DESCRIPTION" tl_label="Description" tl_name="description" tl_physicalname="ST_DESCRIPTION">Disable laser on card</step_description>
+							<step_expected tp_label="Expected Result" tp_name="expected" tp_physicalname="DS_EXPECTED" tl_label="Expected" tl_name="expected" tl_physicalname="ST_EXPECTED">Laser is disabled</step_expected>
+							<step_status tl_label="Status" tl_name="status" tl_physicalname="ST_STATUS">Passed</step_status>
+						</test_case_step>
+						<test_case_step>
+							<step_name tp_label="Step Name" tp_name="name" tp_physicalname="DS_STEP_NAME" tl_label="Step Name" tl_name="name" tl_physicalname="ST_STEP_NAME">Step 3</step_name>
+							<step_description tp_label="Description" tp_name="description" tp_physicalname="DS_DESCRIPTION" tl_label="Description" tl_name="description" tl_physicalname="ST_DESCRIPTION">Check LOS raised on slot2</step_description>
+							<step_expected tp_label="Expected Result" tp_name="expected" tp_physicalname="DS_EXPECTED" tl_label="Expected" tl_name="expected" tl_physicalname="ST_EXPECTED">LOS is raised</step_expected>
+							<step_status tl_label="Status" tl_name="status" tl_physicalname="ST_STATUS">Passed</step_status>
+						</test_case_step>
+					</test_case_steps>
+                    <test_case_run>
+                        <test_case_run_name tl_label="Run Name" tl_name="name" tl_physicalname="RN_RUN_NAME">Run 2014-11-28 14:47:07</test_case_run_name>
+                        <test_case_run_status tl_label="Status" tl_name="status" tl_physicalname="RN_STATUS">Failed
+                        </test_case_run_status>
+                        <test_case_run_exec_date tl_label="Exec Date" tl_name="execution-date" tl_physicalname="RN_EXECUTION_DATE">2014-11-24</test_case_run_exec_date>
+                        <test_case_run_exec_time tl_label="Exec Time" tl_name="execution-time" tl_physicalname="ST_EXECUTION_TIME">17:16:34</test_case_run_exec_time>
+                        <test_case_run_tester tl_label="Tester"  tl_name="owner" tl_physicalname="RN_TESTER_NAME">anandrad</test_case_run_tester>
+                        <test_case_run_release tl_label="Release" tl_name="user-03" tl_physicalname="RN_USER_03">5.40 00</test_case_run_release>
+                        <test_case_run_sw_build tl_label="SW Build" tl_name="user-01" tl_physicalname="RN_USER_01">APS_HIT7300_5.40_00.00.01_141111_1</test_case_run_sw_build>
+                    </test_case_run>
+				</test_case>
+			</test_cases>
+		</test_set>
+	</test_sets>
+</report>

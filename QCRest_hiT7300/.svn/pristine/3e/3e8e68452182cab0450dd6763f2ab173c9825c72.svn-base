@@ -1,0 +1,36 @@
+[tags_robot_test_set]
+t1 = test_set
+t2 = test_set_name
+t3 = test_set_release
+
+[tags_robot_test_case]
+t1 = test_case
+t2 = test_case_name
+t3 = test_case_automation_level
+t4 = test_case_level_and_area
+t5 = test_case_creation_date
+t6 = test_case_status
+t7 = test_case_worth_regression_test
+t8 = test_case_products_concerned
+t9 = test_case_release
+t10 = test_case_responsible_tester
+t11 = test_case_sw_build
+t12 = test_case_release_concerned
+t13 = test_case_responsible_person
+t14 = test_case_designer
+
+[tags_robot_test_case_step]
+t1 = step_name
+t2 = step_description
+t3 = step_expected
+t4 = step_status
+t5 = step_actual
+
+[tags_robot_test_case_run]
+t1 = test_case_run_name
+t2 = test_case_run_status
+t3 = test_case_run_exec_date
+t4 = test_case_run_exec_time
+t5 = test_case_run_tester
+t6 = test_case_run_release
+t7 = test_case_run_sw_build

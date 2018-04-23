@@ -1,0 +1,144 @@
+[test_set_name]
+tl_name = name
+tl_physicalname = CY_CYCLE
+tl_label = Name
+
+[test_set_release]
+tl_name = user-01
+tl_physicalname = CY_USER_01
+tl_label = Release
+
+[test_case_sw_build]
+tl_name = user-03
+tl_physicalname = TC_USER_03
+tl_label = SW Build
+
+[test_case_name]
+tp_name = name
+tp_physicalname = TS_NAME
+tp_label = Test Name
+
+[test_case_automation_level]
+tp_name = user-12
+tp_physicalname = TS_USER_12
+tp_label = Automation level
+
+[test_case_level_and_area]
+tp_name = user-10
+tp_physicalname = TS_USER_10
+tp_label = Test Level and Area
+
+[test_case_creation_date]
+tp_name = creation-time
+tp_physicalname = TS_CREATION_DATE
+tp_label = Creation Date
+
+[test_case_status]
+tp_name = status
+tp_physicalname = TS_STATUS
+tp_label = Status
+
+[test_case_worth_regression_test]
+tp_name = user-15
+tp_physicalname = TS_USER_15
+tp_label = Worth regression test
+
+[test_case_products_concerned]
+tp_name = user-19
+tp_physicalname = TS_USER_19
+tp_label = Products Concerned
+
+[test_case_release_concerned]
+tp_name = user-20
+tp_physicalname = TS_USER_20
+tp_label = Releases Concerned
+
+[test_case_responsible_person]
+tp_name = user-08
+tp_physicalname = TS_USER_08
+tp_label = Responsible Person
+
+[test_case_designer]
+tp_name = owner
+tp_physicalname = TS_RESPONSIBLE
+tp_label = Designer
+
+[test_case_release]
+tl_name = user-02
+tl_physicalname = TC_USER_02
+tl_label = Release
+
+[test_case_responsible_tester]
+tl_name = owner
+tl_physicalname = TC_TESTER_NAME
+tl_label = Responsible Tester
+
+[step_name]
+tl_physicalname = ST_STEP_NAME
+tp_name = name
+tp_physicalname = DS_STEP_NAME
+tp_label = Step Name
+tl_name = name
+tl_label = Step Name
+
+[step_description]
+tl_physicalname = ST_DESCRIPTION
+tp_name = description
+tp_physicalname = DS_DESCRIPTION
+tp_label = Description
+tl_name = description
+tl_label = Description
+
+[step_expected]
+tl_physicalname = ST_EXPECTED
+tp_name = expected
+tp_physicalname = DS_EXPECTED
+tp_label = Expected Result
+tl_name = expected
+tl_label = Expected
+
+[step_status]
+tl_name = status
+tl_physicalname = ST_STATUS
+tl_label = Status
+
+[step_actual]
+tl_name = actual
+tl_physicalname = ST_ACTUAL
+tl_label = Actual
+
+[test_case_run_name]
+tl_name = name
+tl_physicalname = RN_RUN_NAME
+tl_label = Run Name
+
+[test_case_run_status]
+tl_name = status
+tl_physicalname = RN_STATUS
+tl_label = Status
+
+[test_case_run_exec_date]
+tl_name = execution-date
+tl_physicalname = RN_EXECUTION_DATE
+tl_label = Exec Date
+
+[test_case_run_exec_time]
+tl_name = execution-time
+tl_physicalname = ST_EXECUTION_TIME
+tl_label = Exec Time
+
+[test_case_run_tester]
+tl_name = owner
+tl_physicalname = RN_TESTER_NAME
+tl_label = Tester
+
+[test_case_run_release]
+tl_name = user-03
+tl_physicalname = RN_USER_03
+tl_label = Release
+
+[test_case_run_sw_build]
+tl_name = user-01
+tl_physicalname = RN_USER_01
+tl_label = SW Build
+
